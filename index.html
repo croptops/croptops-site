@@ -1,16 +1,198 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Crop Tops - Montréal Punk Rock</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Tops – Punk Rock MTL</title>
+    <meta name="description" content="Crop Tops – punk rock francophone fait à Montréal. Juste du bruit et de l’attitude. Clique, écoute, crie">
+    <style>
+        /* RESET SIMPLE */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9ff00; /* Jaune vif */
+            color: #000;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* LOGO */
+        .logo {
+            max-width: 90%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        .subtitle {
+            font-family: Impact, sans-serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* TEXTE */
+        .description {
+            max-width: 800px;
+            margin: 20px auto 40px auto;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 0 15px;
+        }
+
+        /* VIDEO / IMAGE */
+        .video-container {
+            margin: 40px auto;
+            margin-bottom: 5px;
+            max-width: 800px;
+            overflow: hidden;
+            border-radius: 15px;
+            border: 4px solid #ff00a5; /* Rose néon */
+        }
+
+        .video-container img {
+            width: 100%;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .video-container:hover img {
+            transform: scale(1.05); /* zoom léger */
+        }
+
+        .caption {
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        /* BOUTONS RESEAUX SOCIAUX */
+        .socials {
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+        }
+        
+        .socials a {
+            position: relative; /* Position de référence pour l'icône */
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centre le texte dans le bouton */
+            text-decoration: none;
+            background: #ff00a5;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px; /* Espace autour du texte */
+            border-radius: 10px;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .socials a:hover {
+            transform: scale(1.05);
+            background: #ff33bb;
+        }
+
+        .social-icon {
+            position: absolute; /* Place l'icône de façon absolue */
+            left: 15px; /* Aligne l'icône à 15px du bord gauche du bouton */
+            height: 24px;
+            width: auto;
+        }
+
+        /* IMAGE ILLUSTRATION */
+        .illustration {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* === RESPONSIVE === */
+
+        /* TABLETTE */
+        @media (max-width: 1024px) {
+            .subtitle {
+                font-size: 1.7rem;
+            }
+            .description {
+                font-size: 1rem;
+            }
+            .socials {
+                max-width: 90%;
+            }
+        }
+
+        /* MOBILE */
+        @media (max-width: 640px) {
+            body {
+                line-height: 1.4;
+            }
+            .subtitle {
+                font-size: 1.4rem;
+                margin-bottom: 15px;
+            }
+            .description {
+                font-size: 0.95rem;
+                margin: 15px auto 25px auto;
+            }
+            .video-container {
+                margin: 20px auto;
+            }
+            .socials {
+                margin: 30px auto;
+                gap: 15px;
+            }
+            .socials a {
+                font-size: 1rem;
+                padding: 12px;
+                width: 100%;
+            }
+            .social-icon {
+                height: 20px;
+            }
+        }
+    </style>
 </head>
-<body style="font-family: Arial; text-align: center; padding: 50px;">
-  <h1>Crop Tops</h1>
-  <p>Groupe punk rock francophone 🎸</p>
-  <p>
-    <a href="https://www.youtube.com/@tonlien">YouTube</a> | 
-    <a href="https://open.spotify.com/artist/tonlien">Spotify</a> | 
-    <a href="https://linktr.ee/croptops">Linktree</a>
-  </p>
+<body>
+    <img src="logo.png" alt="Crop Tops Logo" class="logo">
+    <div class="subtitle">MTL Punk Rock</div>
+    <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+    </p>
+    <div class="video-container">
+        <a href="https://www.youtube.com/watch?v=XXXXXXX" target="_blank">
+            <img src="videoclip_dmdvb.png" alt="Clip officiel YouTube">
+        </a>
+    </div>
+    <div class="caption">
+        Crop Tops – Donne-moi des V-Bucks (Clip Officiel | Fortnite en vrai)
+    </div>
+    <div class="socials">
+        <a href="#" target="_blank">
+            <img src="rs-ig.png" alt="Icône Instagram" class="social-icon">
+            Instagram
+        </a>
+        
+        <a href="#" target="_blank">
+            <img src="rs-tiktok.png" alt="Icône TikTok" class="social-icon">
+            TikTok
+        </a>
+        
+        <a href="#" target="_blank">
+            <img src="rs-facebook.png" alt="Icône Facebook" class="social-icon">
+            Facebook
+        </a>
+        
+        <a href="#" target="_blank">
+            <img src="rs-bandcamp.png" alt="Icône Bandcamp" class="social-icon">
+            Bandcamp
+        </a>
+    </div>
+    <img src="matjiidii.png" alt="Illustration Crop Tops" class="illustration">
 </body>
-</html
+</html>
